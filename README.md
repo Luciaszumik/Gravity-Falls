@@ -1,2 +1,2 @@
 # Gravity-Falls
-tp web pagina con framework y p5js
+tp web con framework y p5js

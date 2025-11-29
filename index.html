@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Gravity Falls: El Misterio Continúa</title>
+
+
+  <link rel="stylesheet" href="https://unpkg.com/papercss@1.9.2/dist/paper.min.css">
+<link rel="stylesheet" href="miestilo.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quintessential&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+<header>
+  <img src="fotos/titulo.png" alt="el titulo">
+  
+ </header>
+
+
+<!-- BOTON DE AVENTURA -->
+  <button class="boton-aventura" onclick="openModal('modal-aventura')">
+    Iniciar Aventura
+  </button>
+  
+
+  <!-- CARDS -->
+  <div class="tarjetas">
+
+<div class="seccion-card paper">
+  <h4>Inicio</h4>
+  <a class="paper-btn" href="#inicio">Ver</a>
+</div>
+
+
+   <div class="seccion-card paper">
+    <h4 style="margin-top: 70px;">Proceso de trabajo</h4>
+     <a class="paper-btn" href="#proceso">Ver</a>
+</div>
+
+<div class="seccion-card paper">
+  <h4>Integrantes</h4>
+  <a class="paper-btn" href="#integrantes">Ver</a>
+</div>
+
+<div class="seccion-card paper">
+  <h4>Juego</h4>
+  <a class="paper-btn" href="#juegolaser">Ver</a>
+</div>
+
+  </div>
+
+<!-- inico -->
+  <section id="inicio" class="contenido">
+    <h2>INICIO</h2>
+    <p>
+      Gravity Falls es un lugar lleno de secretos, criaturas extrañas y sucesos
+      que desafían toda lógica. En esta sección se presenta el misterio inicial
+      que da comienzo a tu aventura.
+    </p>
+    <p>
+      El pueblo, ubicado en los recónditos bosques de Oregón, es el escenario de una
+        aclamada serie animada de misterio y aventura. La trama inicia cuando los hermanos
+        mellizos, Dipper (curioso e investigador) y Mabel Pines (optimista y creativa), son 
+        enviados a pasar el verano con su excéntrico tío abuelo, Stan Pines, propietario 
+        de la Cabaña del Misterio.
+      </p>
+    
+      <p> <img src= "fotos/dipperymabel.jpg" alt="Dipper y Mabel" class="imagen-contenido">
+        Lo que promete ser un verano aburrido cambia radicalmente cuando Dipper descubre el Diario 
+        Número 3. Este tomo enigmático, marcado con una mano de seis dedos, documenta exhaustivamente
+          las anomalías del pueblo: desde gnomos y zombis hasta portales interdimensionales.
+          El Diario se convierte en la herramienta principal de los mellizos para investigar los fenómenos 
+          que ocurren a su alrededor, impulsando la búsqueda de la verdad y la identidad de su misterioso autor.
+      </p>
+      <p>
+        A medida que los mellizos profundizan en los secretos del pueblo, descubren una amenaza interdimensional 
+          mayor: Bill Cipher. Este demonio con forma triangular busca manipular a los habitantes de Gravity 
+          Falls para desatar la locura total (Raromageddon).
+          </p>
+          <img src= "fotos/DiariocDipper.png" alt="El libro y Dipper" class="imagen-contenido">
+      <p>
+        Durante esta historia, mientras Dipper ordenaba cajas viejas encuentra un misterioso papel. Como jugador, tomas su punto de vista. ¡Adentrate en la historia tomando tus decisiones y descubrí hasta donde podes llegar!
+      </p>
+      <p>Tu misión es descubrir de donde proviene la misteriosa carta y evitar toparte con Bill.</p>
+
+    <button class="paper-btn" onclick="window.scrollTo({top:0, behavior:'smooth'})">
+      Volver arriba
+    </button>
+  </section>
+
+<!-- Proceso d trabajp -->
+
+  <section id="proceso" class="contenido">
+    <h2>PROCESO DE TRABAJO</h2>
+   <P>1. Planificación Narrativa:
+La clave fue comenzar planeando pantalla por pantalla. Mapeamos la historia completa en un diagrama de flujo para visualizar cada posible ruta. Esto nos aseguró que la narrativa mantuviera la coherencia del universo de Gravity Falls y ofreciera múltiples finales genuinos.</P>
+
+<p>2. Creación de Contenido:
+Una vez definida la estructura, nos centramos en el guion, asegurando que el tono de los personajes fuera auténtico y relacionado a la serie. Recopilamos y adaptamos recursos visuales (fondos e ilustraciones) para evocar la estética de la tematica.</p> 
+
+<p> 3. Implementación y Diseño:
+Utilizamos processing en version p5js para enlazar el texto y las imágenes, dando vida a la interactividad. El diseño de la interfaz se inspiró directamente en la serie, buscando una inmersión inmediata en el ambiente del pueblo más extraño del mundo. Cuando el jugador pierde es porque se topa con Bill, de maneras que tambien se dan en la serie original.</P>
+    <button class="paper-btn" onclick="window.scrollTo({top:0, behavior:'smooth'})">
+      Volver arriba
+    </button>
+  </section>
+
+<!-- integrantess -->
+  <section id="integrantes" class="contenido">
+    <h2>INTEGRANTES</h2>
+
+    <div class="galeria-integrantes">
+        <div class="integrante-card">
+            <img src="fotos/bri.jpg" alt="Foto de Brisa Rosciolesi" class="foto-integrante">
+            <p>Brisa Rosciolesi</p>
+        </div>
+        
+        <div class="integrante-card">
+            <img src="fotos/lu.jpg" alt="Foto de Lucia Szumik" class="foto-integrante">
+            <p>Lucia Szumik</p>
+        </div>
+    </div>
+  
+    <button class="paper-btn" onclick="window.scrollTo({top:0, behavior:'smooth'})">
+      Volver arriba
+    </button>
+  </section>
+
+  <!-- juego laser tag -->
+ <section id="juegolaser" class="contenido">
+  <h2>JUEGO LASER TAG</h2>
+
+  <a href="lasertag/index.html" target="_blank" class="paper-btn">
+    Jugar Laser Tag en pantalla completa
+  </a>
+  <button class="paper-btn" onclick="window.scrollTo({top:0, behavior:'smooth'})">
+    Volver arriba
+  </button>
+</section>
+
+<!-- ventana emergente con la aventura -->
+  <div class="modal-overlay" id="modal-aventura">
+    <div class="modal-content paper">
+      <label class="modal-close" onclick="closeModal('modal-aventura')">&times;</label>
+      
+      <div id="canvas-container">
+          <h3>Comienza tu aventura</h3> 
+             <div class="row">
+              <iframe src="juego/index.html" frameborder="0" width="650" height="490">
+
+              </iframe>
+             </div>
+
+      </div>
+    </div>
+  </div>
+  <script src="app.js"></script>
+
+</body>
+</html>
